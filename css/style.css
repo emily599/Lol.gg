@@ -1,0 +1,156 @@
+body {
+    background: url("https://images6.alphacoders.com/739/thumb-1920-739116.jpg")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* -----------------------------First Part CSS---------------------------------------- */
+
+#first-part{
+    color: white;
+    background-color: rgba(113,119,139, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    width: 33%;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+
+}
+
+/* -----------------------------Second Part CSS---------------------------------------- */
+
+#second-part{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#search-input {
+    margin: 0 auto;
+    height: 65px;
+    font-size: 32px;  
+    background: rgba(0, 0, 0, 0);
+    color:white;
+}
+
+#go{
+    color: white;
+    font-size: 34px;
+}
+
+#button1 {
+    /* background-image: ; */
+}
+
+/* -----------------------------Third Part CSS---------------------------------------- */
+
+#third-part{
+    width: 50%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#third-part img {
+    margin-left: 25px;
+    margin-top: 34px;
+    border-radius: 50%;
+}
+
+#sl {
+    text-align: center;
+    color: white;
+}
+
+#sn {
+    padding-top: 77px;
+    text-align: center;
+    color: white;
+}
+
+#invalid-name {
+    text-align: center;
+    padding-top: 73px;
+}
+
+/* -----------------------------Fourth Part CSS---------------------------------------- */
+
+#fourth-part{
+    width: 77%;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#lg {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#all-format {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+#user-lost {
+    background: rgba(237, 110, 133, 1);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+}
+
+#user-won {
+    background: rgba(171, 206, 233, 1);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 1.5px;
+}
+/* ----------------------------------End CSS------------------------------------------- */
+/* --------------------------------Media Query----------------------------------------- */
+
+@media only screen and (max-width: 992px) {
+h1 {
+    font-size: 30px;
+}
+
+#summoner-img {
+    position: relative;
+    top: 149px;
+    left: 81px;
+}
+
+#third-part {
+    width: 50%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#killing-me {
+    display: block;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 370px;
+    right: 125px;
+}
+
+#sl {
+    text-align: center;
+    color: white;
+    margin-left: 70px;
+}
+}
