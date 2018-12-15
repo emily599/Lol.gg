@@ -10,7 +10,7 @@ function submitPress() {
         $("#fourth-part").html('<div id="lg" <h4>Last 10 Games</h4></div><br>');
     }
     reset();
-    let api = "RGAPI-e80e7d25-d77d-4660-8981-d0e5593fb357"
+    let api = "RGAPI-cc926fca-ceb3-415d-90fa-d8f871f112a5"
     if (summonerNameInput) {
         fetch('https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/' + summonerNameInput + '?api_key=' + api)
             .then(response => response.json())
